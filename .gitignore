@@ -2,4 +2,6 @@ Binaries/
 Intermediate/
 Saved/
 .vs/
+Publish/
+Build/
 TestCar.VC.db
