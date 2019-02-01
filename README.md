@@ -11,3 +11,5 @@
 
 一般使用development editor进行开发，可使用Engine\Extras\UnrealVS\VS2015\UnrealVS.vsix插件直接在visual studio中编译。  
 断点调试时使用debuggame editor。  
+
+打包发版时需设置Game Default Map防止黑屏。
