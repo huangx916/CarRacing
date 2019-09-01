@@ -15,3 +15,10 @@
 打包发版时需设置GameDefaultMap防止黑屏。  
 
 <img class="shadow" src="./1.png" width="1000">  
+
+
+双击蓝图连线可生成节点  
+GameMode只存在服务器中，可使用GameState进行网络复制。  
+PlayerController存在于服务器和拥有该玩家控制器的客户端上。  
+Pawn存在于服务器和所有客户端上。  
+通过IsLocalController()判断是否是本地控制玩家。  
